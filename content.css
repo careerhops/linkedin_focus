@@ -1,0 +1,5 @@
+[data-focus-collapsed="yes"] > :not(.lf-bar) {display:none !important;}
+.lf-bar {display:flex!important; flex-wrap:wrap; gap:7px; align-items:center; padding:10px 12px!important; margin:0!important; background:#eef5fc!important; border-bottom:1px solid #c9d9e9!important; color:#17324c!important; font:12px/1.5 system-ui!important;}
+.lf-bar span {flex:1 1 170px;}
+.lf-bar button {border:1px solid #9fb5ca!important; border-radius:14px!important; padding:4px 9px!important; background:white!important; color:#17324c!important; font:12px/1.5 system-ui!important; cursor:pointer!important;}
+.lf-bar button:focus-visible {outline:2px solid #075db3!important;}
